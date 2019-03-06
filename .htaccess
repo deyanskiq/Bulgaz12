@@ -1,0 +1,4 @@
+SSLOptions +StrictRequire
+SSLRequireSSL
+SSLRequire %{HTTP_HOST} eq "bulgaz.bg"
+ErrorDocument 403 https://bulgaz.bg
