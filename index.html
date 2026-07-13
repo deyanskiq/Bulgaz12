@@ -387,6 +387,23 @@
         color: #7fc4fd;
         font-size: 1rem;
       }
+      .hv2-trust-link {
+        cursor: pointer;
+        transition: color 0.2s ease;
+      }
+      .hv2-trust-link-text {
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.4);
+        text-underline-offset: 3px;
+      }
+      .hv2-trust-link:hover,
+      .hv2-trust-link:focus-visible {
+        color: #ffffff;
+      }
+      .hv2-trust-link:hover .hv2-trust-link-text,
+      .hv2-trust-link:focus-visible .hv2-trust-link-text {
+        text-decoration-color: currentColor;
+      }
       .hv2-trust-parking {
         background: rgba(74, 222, 128, 0.13);
         border: 1px solid rgba(74, 222, 128, 0.32);
@@ -593,10 +610,15 @@
                 <i class="icofont icofont-shield-alt"></i>
                 Лицензирано оборудване
               </div>
-              <div class="hv2-trust-item">
+              <a
+                href="https://maps.app.goo.gl/yv52aKPAL24s3mHX7"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hv2-trust-item hv2-trust-link"
+              >
                 <i class="icofont icofont-location-pin"></i>
-                ул. "Шипка" 1, Русе
-              </div>
+                <span class="hv2-trust-link-text">ул. "Шипка" 1, Русе</span>
+              </a>
               <div class="hv2-trust-item hv2-trust-parking">
                 <i class="icofont icofont-vehicle-car"></i>
                 Безплатен паркинг
@@ -1637,7 +1659,12 @@
             <h4 class="footer-section-title">Контакти</h4>
             <div class="footer-divider"></div>
             <div class="footer-contact-cards">
-              <div class="footer-contact-card">
+              <a
+                href="https://maps.app.goo.gl/yv52aKPAL24s3mHX7"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-contact-card"
+              >
                 <div class="footer-contact-card-icon">
                   <i class="icofont icofont-location-pin"></i>
                 </div>
@@ -1647,7 +1674,7 @@
                     гр. Русе, ул. "Шипка" № 1, до "Кооперативен пазар"
                   </div>
                 </div>
-              </div>
+              </a>
               <div class="footer-contact-card">
                 <div class="footer-contact-card-icon">
                   <i class="icofont icofont-clock-time"></i>
