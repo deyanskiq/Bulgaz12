@@ -1,0 +1,75 @@
+# robots.txt — https://bulgaz.bg/
+
+# Търсачки
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI / генеративни търсачки и асистенти (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Всички останали
+User-agent: *
+Allow: /
+
+Sitemap: https://bulgaz.bg/sitemap.xml
